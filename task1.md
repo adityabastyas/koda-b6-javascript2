@@ -35,10 +35,9 @@ plusplus2@{shape: rect, label : 'i++'}
   minMax-->ifGabungan1
   ifGabungan1 --True--> isMin --True--> minMaxTrue
   minMaxTrue --> plusplus --> ifGabungan1
-   ifGabungan1 -->
-   outpuMin --> outpuMax
+   ifGabungan1 --False -->outpuMin --> outpuMax
 
-  isMin --False--outpuMin --> ifLebih95
+  isMin --False--> ifLebih95
   ifLebih95 --True--> ifLebih95True --> plusplus2
   plusplus2 --> ifGabungan1
   ifLebih95 --False--> stop
