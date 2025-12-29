@@ -15,7 +15,7 @@ for (let i = 0; i < gabunganHasilUjian.length; i++) {
     console.log("nilai minimum", nilaiMinimum);
   } else if (gabunganHasilUjian[i] > 95) {
     nilaiMaximum += gabunganHasilUjian[i];
-    console.log("nilai Maximum", nilaiMinimum);
+    console.log("nilai Maximum", nilaiMaximum);
   }
 }
 
